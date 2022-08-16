@@ -34,26 +34,4 @@ const readAndAppend = (content, file) => {
   });
 };
 
-const FindKeyBasedOnValue = (file, value) =>
-{
-  fs.readFile(file, 'utf8', (error, data) => 
-  {
-    if (error) 
-    {
-      console.error(err);
-    } 
-    else
-    {
-      const parsedData = JSON.parse(data);
-      parsedData.find(element => element.id === value);
-      console.log(parsedData);
-      //writeToFile(file, parsedData);
-    }
-  });
-
-  //let key = Object.keys(object).find((key) => object[key] === value);
-  // let key = object.find(element => element.id === value);
-  // console.log(JSON.stringify(key));
-}
-
-module.exports = { readFromFile, writeToFile, readAndAppend, FindKeyBasedOnValue };
+module.exports = { readFromFile, writeToFile, readAndAppend };
