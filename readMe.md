@@ -1,9 +1,11 @@
-# Team Profile Generator
+# Note Taker
 
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Description
 A simple program the uses Node.js to allow users to add, edit and delete notes.
+
+A deployed version can be found [here](https://alexscrivenernotetaker.herokuapp.com).
 
 <br/>
 
