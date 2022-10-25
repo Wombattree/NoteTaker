@@ -7,6 +7,8 @@ A simple program the uses Node.js to allow users to add, edit and delete notes.
 
 A deployed version can be found [here](https://alexscrivenernotetaker.herokuapp.com).
 
+![Preview Image](./public/assets/screenshot.png?raw=true "Preview Image")
+
 <br/>
 
 ## Table Of Contents
